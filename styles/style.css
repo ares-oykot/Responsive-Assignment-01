@@ -1,0 +1,354 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+/* nav section styles start */
+.nav-container {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    gap: 400px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.048);
+    background-color: rgba(229, 84, 115, 0.158);
+}
+
+.nav-flower-logo {
+    height: 60px;
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(255, 0, 234);
+    gap: 30px;
+}
+
+.menu-link:hover {
+    cursor: pointer;
+    background-color: rgba(0, 255, 242, 0.192);
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.linkup {
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+}
+
+/* nav section styles end */
+
+
+
+
+/* banner section style start */
+.banner-container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.pink-tulips {
+    width: 475px;
+    /* width: 100%; */
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.button-primary {
+    margin-top: 25px;
+    padding: 18px 38px;
+    background-color: #e55473;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.button-primary:hover {
+    cursor: pointer;
+    background-color: #ec1d4a;
+}
+
+.banner-btn-linkup {
+    text-decoration: none;
+    color: white;
+}
+
+/* banner section styles end */
+
+
+
+
+/* Our Featured Flowers section styles start */
+.featured-flowers-container {
+    /* border: 1px solid black; */
+    height: 650px;
+    margin: 70px 155px 0px 155px;
+    text-align: center;
+}
+
+.featured-flowers {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.primary-title {
+    color: #272727;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.primary-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.featured-flower-img-1 {
+    margin-top: 40px;
+    width: 330px;
+    height: 375px;
+    flex-shrink: 0;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-flower-img-2 {
+    margin-top: 40px;
+    width: 330px;
+    height: 375px;
+    flex-shrink: 0;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-flower-img-3 {
+    margin-top: 40px;
+    width: 330px;
+    height: 375px;
+    flex-shrink: 0;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+
+.photo-1 {
+    width: 250px;
+    margin-top: 30px;
+}
+
+.photo-2 {
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.photo-3 {
+    width: 250px;
+}
+
+.flower-name {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.flower-name:hover {
+    background-color: rgba(247, 242, 242, 0.432);
+}
+
+.featured-flower-linkup {
+    color: #272727;
+    text-decoration: underline;
+}
+
+/* Our Featured Flowers section styles end */
+
+
+
+
+/* services section styles start */
+.services-container {
+    margin: 40px 155px 100px 155px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    align-items: center;
+    /* text-align: center; */
+    background: rgba(39, 39, 39, 0.082);
+}
+
+.service {
+    margin: auto;
+    text-align: center;
+}
+
+/* services section styles end */
+
+
+
+
+/* hot deal section styles start */
+.hot-deal-container {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal {
+    text-align: center;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off {
+    color: red;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tulip-flower-vase {
+    width: 220px;
+}
+
+/* hot deal section styles end */
+
+
+
+
+/* instagram section styles start */
+.instagram-container {
+    margin: 80px 155px 100px 155px;
+    text-align: center;
+}
+
+.instagram-flower {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.insta-flower {
+    width: 239px;
+    border-radius: 5px;
+}
+
+/* instagram section styles end */
+
+
+
+
+/* latest deal section style starts */
+.latest-deal {
+    margin: auto;
+    margin: 20px 155px 100px 155px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    border-radius: 5px;
+    height: 50vh;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.deal {
+    margin-top: 40px;
+}
+
+.type-email {
+    width: 500px;
+    padding: 18px 38px;
+    border: none;
+}
+
+/* latest deal section style end */
+
+
+
+
+
+/* footer shop section style start */
+.flower-shop {
+    width: 100%;
+    height: 50vh;
+    background: #111010;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.shop-title {
+    color: white;
+    margin-top: 90px;
+    font-family: 'Lato', sans-serif;
+}
+
+.shop-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.color {
+    color: red;
+}
+/* footer shop section style end */

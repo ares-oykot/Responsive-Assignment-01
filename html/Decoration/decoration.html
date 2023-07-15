@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <title>Decoration</title>
+    <link rel="shortcut icon" href="wedding-arch.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* nav section styles start */
+        .nav-container {
+            display: flex;
+            height: 80px;
+            width: 100%;
+            justify-content: center;
+            gap: 400px;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 0, 0, 0.048);
+            background-color: rgba(229, 84, 115, 0.158);
+        }
+
+        .nav-flower-logo {
+            height: 60px;
+            width: 100%;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            font-style: italic;
+            font-size: 25px;
+            color: rgb(255, 0, 234);
+            gap: 30px;
+        }
+
+        .menu-link:hover {
+            cursor: pointer;
+            background-color: rgba(0, 255, 242, 0.192);
+            border-radius: 3px;
+            padding: 2px;
+        }
+
+        .linkup {
+            text-decoration: none;
+            color: rgb(0, 195, 255);
+        }
+
+        /* nav section styles end */
+        /* banner section style start */
+        .banner-container {
+            display: flex;
+            width: 100%;
+            margin: auto;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            background: rgba(229, 84, 115, 0.10);
+        }
+
+        .pink-tulips {
+            width: 450px;
+        }
+
+        .banner-title {
+            color: #272727;
+            font-size: 55px;
+            font-weight: 800;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .banner-description {
+            color: rgba(39, 39, 39, 0.60);
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+
+        .button-primary {
+            margin-top: 25px;
+            padding: 18px 38px;
+            background-color: #e55473;
+            border-radius: 5px;
+            border: none;
+            color: white;
+        }
+
+        .button-primary:hover {
+            cursor: pointer;
+            background-color: #ec1d4a;
+        }
+
+        .banner-btn-linkup {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* banner section styles end */
+    </style>
+</head>
+
+<body>
+    <nav> <!-- nav bar section starts here -->
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img class="nav-flower-logo" src="fl_logo.png" alt="flower logo">
+            </div>
+            <div class="nav-menu">
+                <a class="linkup" href="../../index.html">
+                    <li class="menu-link">Home</li>
+                </a>
+                <a class="linkup" href="../Love/love.html">
+                    <li class="menu-link">Love</li>
+                </a>
+                <a class="linkup" href="decoration.html">
+                    <li class="menu-link">Decoration</li>
+                </a>
+                <a class="linkup" href="../Wedding/wedding.html">
+                    <li class="menu-link">Wedding</li>
+                </a>
+            </div>
+        </div>
+    </nav> <!-- nav bar section end here -->
+    <div class="banner-container"> <!-- banner section starts here -->
+        <div class="banner-info">
+            <h1 class="banner-title">
+                Let's make <br>
+                beautiful flowers a <br>
+                part of your life.
+            </h1>
+            <p class="banner-description">Flowers are symbolic of beauty, love and tranquillity. They form the soul
+                of a <br>
+                garden and convey the message of nature to man. Flowers and objects of <br>
+                aesthetic, ornamental, social, religious and cultural value etc.
+            </p>
+            <button class="button-primary"><a class="banner-btn-linkup" href="">Shop Now</a></button>
+        </div>
+        <div class="banner-img">
+            <img class="pink-tulips" src="Picsart_23-07-11_18-08-06-256-removebg-preview.png" alt="banner img">
+        </div>
+    </div> <!-- banner section end here -->
+</body>
+
+</html>
